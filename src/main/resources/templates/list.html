@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Thymeleaf</title>
+</head>
+<body>
+<h2>欢迎使用Thymeleaf!!</h2>
+<div th:each="user:${userList} ">
+    <input type="text" name="name" th:value="${user.name}"/>
+    <input  type="text" name="age" th:value="${user.age}"/>
+</div>
+</body>
+<script>
+    console.log("sfsfs");
+</script>
+</html>

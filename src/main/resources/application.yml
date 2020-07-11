@@ -1,0 +1,9 @@
+
+server:
+  port: 8080
+ # application.yml 配置如下：
+spring:
+  thymeleaf:
+    cache: false #关闭缓存
+    prefix: classpath:/templates/ #添加路径前缀
+    suffix: html
